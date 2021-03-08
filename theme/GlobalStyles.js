@@ -17,7 +17,10 @@ const GlobalStyles = ({ children }) =>{
             display: flex;
             flex-direction: column;
             min-height: 100vh;
-            background: ${colorMode === 'light' ? 'white' : 'gray.900'};
+            background: ${colorMode === 'light' ? '#F7FAFC' : '#171923'};
+          }
+          .chakra-accordion__item {
+            border: none !important
           }
         `}
         />

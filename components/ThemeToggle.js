@@ -1,20 +1,23 @@
-import { useColorMode, IconButton } from '@chakra-ui/react'
-import { SunIcon, MoonIcon } from '@chakra-ui/icons'
+import { useColorMode, Icon, Box } from '@chakra-ui/react'
+import { FaMoon } from "react-icons/fa"
+import { BsSun } from "react-icons/bs"
+import colorModes from '../theme/colorMode'
 
 const ThemeToggle = () => {
     const { colorMode, toggleColorMode } = useColorMode()
-    const iconColor = {
-        light: 'gray.900',
-        dark: 'white'
-    }
+
+
 
     return(
-        <IconButton
+        <Box
+            as="button"
             aria-label="Toggle theme"
-            icon={colorMode === 'dark' ? <SunIcon /> : <MoonIcon />}
             onClick={toggleColorMode}
-            color={iconColor[colorMode]}
-        />
+            color={colorModes.iconColor[colorMode]}
+            outline="none"
+        >
+            {colorMode === 'dark' ? <Icon as={BsSun} boxSize={8}/> : <Icon as={FaMoon} boxSize={7}/>}
+        </Box>
     )
 }
 

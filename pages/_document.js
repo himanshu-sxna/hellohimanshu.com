@@ -13,13 +13,11 @@ export default class MyDocument extends Document {
         <Html lang='en'>
           <Head>
             <link rel="preconnect" href="https://fonts.gstatic.com"/>
-            <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Space+Mono&display=swap" rel="stylesheet"/>
-            <link href='favicons/site.webmanifest' rel='manifest' />
+            <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;700&family=Space+Mono&display=swap" rel="stylesheet"/>
+            <link href='/favicons/site.webmanifest' rel='manifest' />
             <link rel='icon' type='image/png' href='/favicons/favicon-32x32.png' sizes='32x32' />
             <link rel='icon' type='image/png' href='/favicons/favicon-16x16.png' sizes='16x16' />
             <link rel='apple-touch-icon' sizes='180x180' href='/favicons/apple-touch-icon.png' />
-            <link rel='icon' type='image/png' sizes='32x32' href='/favicons/favicon-32x32.png' />
-            <link rel='icon' type='image/png' sizes='16x16' href='/favicons/favicon-16x16.png' />
           </Head>
           <body>
             <ColorModeScript/>

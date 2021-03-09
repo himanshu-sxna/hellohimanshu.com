@@ -20,7 +20,7 @@ const AboutSection = () => {
                         p={0}
                         mb={3}
                     >
-                        👨‍👩‍👧  💻  🏠  ♎  ⚽ 
+                        👨‍👩‍👧  💻  🏠 
                     </AccordionButton>
                     <AccordionPanel 
                         p={0} 
@@ -39,7 +39,14 @@ const AboutSection = () => {
                         <br/>
                         ♎ Zodiac: Libra
                         <br/>
-                        ⚽ Favorite Sport: Football
+                        ⚽ Sport: Football
+                        <br/>
+                        🍕 Food: Pizza
+                        <br/>
+                        🤸‍♂️ Activities: Badminton, Cycling & Swimming
+                        <br/>
+                        🛠️ DIY Enthusiast
+                        <br/>
                     </AccordionPanel>
                 </AccordionItem>
             </Accordion>

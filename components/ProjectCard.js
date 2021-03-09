@@ -13,6 +13,7 @@ const ProjectCard = () => {
                 _active={{outline:"none", border:"none"}}
                 _focus={{outline:"none", border:"none"}}
                 key={workItem.title}
+                rel="noopener noreferrer"
             >
                 <Flex 
                 p={4} 

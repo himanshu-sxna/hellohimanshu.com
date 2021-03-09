@@ -1,4 +1,4 @@
-import { Stack, Flex, Heading, Text, Button, Box,  useColorMode } from '@chakra-ui/react'
+import { Stack, Flex, Heading, Text, Button, useColorMode } from '@chakra-ui/react'
 import colorModes from '../theme/colorMode'
 import AboutSection from "./About"
 
@@ -10,9 +10,8 @@ const IntroSection = () => {
             as="main"
             spacing={8}
             justifyContent="center"
-            alignItems="flex-start"
+            alignItems="center"
             mx={10}
-            maxWidth="960px"
             px={2}
             borderBottom="1px solid"
             borderBottomColor={colorModes.borderColor[colorMode]}            
@@ -21,7 +20,7 @@ const IntroSection = () => {
                 flexDirection="column"
                 justifyContent="flex-start"
                 alignItems="flex-start"
-                mt="150px"
+                mt={[75,75,75,100,100]}
             >   
                 <Heading
                     as="h1"
@@ -29,7 +28,6 @@ const IntroSection = () => {
                     size="3xl"
                     textStyle="h1"
                     color={colorModes.heading[colorMode]}
-                    letterSpacing={1}
                 >
                     Hi, I am Himanshu.
                 </Heading>
@@ -47,7 +45,7 @@ const IntroSection = () => {
                     fontSize="md"
                     mb={2}
                 >
-                    Click below to know more about me!
+                    Click 👇 to know more about me!
                 </Text>
                 <AboutSection/>
                 <Button
@@ -59,6 +57,7 @@ const IntroSection = () => {
                     border="2px"
                     fontWeight="bold"
                     textStyle="p"
+                    _hover={{bg:"teal.600", color:"white"}}
                 >
                     Say hello
                 </Button>

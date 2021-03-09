@@ -30,6 +30,7 @@ const Footer = ()=> {
             <Link 
                 href="mailto:contact@hellohimanshu.com?subject=Hi there"
                 color={colorModes.text[colorMode]}
+                rel="noopener noreferrer"
             >
                 contact@hellohimanshu.com
             </Link>
@@ -40,6 +41,7 @@ const Footer = ()=> {
             >   <Link
                     href="https://github.com/himanshu-sxna"
                     target="_blank"
+                    rel="noopener noreferrer"
                     _focus={{outline:"none", border:"none"}}
                 >
                     <Icon as={FaGithub} boxSize={7}/>
@@ -47,6 +49,7 @@ const Footer = ()=> {
                 <Link
                     href="https://linkedin.com/in/himanshu-sxna"
                     target="_blank"
+                    rel="noopener noreferrer"
                     _focus={{outline:"none", border:"none"}}
                 >
                     <Icon as={FaLinkedin} boxSize={7}/>

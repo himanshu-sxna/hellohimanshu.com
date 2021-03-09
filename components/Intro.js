@@ -1,4 +1,4 @@
-import { Stack, Flex, Heading, Text, Button, useColorMode } from '@chakra-ui/react'
+import { Stack, Flex, Heading, Text, Button, useColorMode, Link } from '@chakra-ui/react'
 import colorModes from '../theme/colorMode'
 import AboutSection from "./About"
 
@@ -48,7 +48,13 @@ const IntroSection = () => {
                     Click 👇 to know more about me!
                 </Text>
                 <AboutSection/>
-                <Button
+                <Link 
+                    href="mailto:contact@hellohimanshu.com?subject=Hi there"
+                    _hover={{textDecoration:"none"}}
+                    _focus={{outline:"none", border:"none"}}
+                    rel="noopener noreferrer"
+                >
+                    <Button
                     size="lg"
                     variant="outline"
                     colorScheme="teal"
@@ -58,9 +64,11 @@ const IntroSection = () => {
                     fontWeight="bold"
                     textStyle="p"
                     _hover={{bg:"teal.600", color:"white"}}
-                >
-                    Say hello
+                    _focus={{outline:"none", border:"none"}}
+                    >
+                        Say hello
                 </Button>
+                </Link>
             </Flex>
         </Stack>
     )

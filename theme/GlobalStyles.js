@@ -19,6 +19,10 @@ const GlobalStyles = ({ children }) =>{
             min-height: 100vh;
             background: ${colorMode === 'light' ? '#F7FAFC' : '#171923'};
           }
+          ::selection {
+            background-color: ${colorMode === 'light' ? '#171923' : '#F7FAFC'};
+            color: ${colorMode === 'light' ? '#F7FAFC' : '#171923'}
+          }
           .chakra-accordion__item {
             border: none !important
           }

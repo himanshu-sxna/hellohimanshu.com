@@ -43,7 +43,7 @@ const AboutSection = () => {
                         <br/>
                         🍕 Food: Pizza
                         <br/>
-                        🤸‍♂️ Activities: Badminton, Cycling & Swimming
+                        🤸‍♂️ Play: Badminton, Cycling & Swimming
                         <br/>
                         🛠️ DIY Enthusiast
                         <br/>

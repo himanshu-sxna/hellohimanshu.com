@@ -39,14 +39,6 @@ const IntroSection = () => {
                 >
                     I design and build visually appealing and functional web applications.
                 </Text>
-                <Text
-                    color={colorModes.text[colorMode]}
-                    textStyle="mono"
-                    fontSize="md"
-                    mb={2}
-                >
-                    Click 👇 to know more about me!
-                </Text>
                 <AboutSection/>
                 <Link 
                     href="mailto:contact@hellohimanshu.com?subject=Hi there"

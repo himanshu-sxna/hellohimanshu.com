@@ -25,7 +25,7 @@ const ProjectSection = () => {
                     color={colorModes.heading[colorMode]}
                     letterSpacing="wide"
                 >
-                    Apps Display
+                    Apps
                 </Heading>
             <ProjectCard/>
             <Box mb={50}>  

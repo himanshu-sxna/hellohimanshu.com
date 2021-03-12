@@ -27,18 +27,6 @@ const ThemeToggle = () => {
                 color={colorModes.iconColor[colorMode]}
             />
         </HStack>
-        /*
-        <Box
-            as="button"
-            aria-label="Toggle theme"
-            onClick={toggleColorMode}
-            color={colorModes.iconColor[colorMode]}
-            outline="none"
-            mt={2}
-        >
-            {colorMode === 'dark' ? <Icon as={BsSun} boxSize={8}/> : <Icon as={FaMoon} boxSize={7}/>}
-        </Box>
-        */
     )
 }
 

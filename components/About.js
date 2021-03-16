@@ -1,5 +1,6 @@
 import { useState } from "react"
-import { Text, useColorMode, Accordion, AccordionItem, AccordionButton, AccordionPanel } from "@chakra-ui/react"
+import { Text, useColorMode, Accordion, AccordionItem, AccordionButton, AccordionPanel, Link } from "@chakra-ui/react"
+import { ExternalLinkIcon } from "@chakra-ui/icons"
 import colorModes from '../theme/colorMode'
 
 const AboutSection = () => {
@@ -51,6 +52,17 @@ const AboutSection = () => {
                         👨‍👩‍👧 Husband and a Father
                         <br/>
                         💻 Full Stack Web Developer
+                        <br/>
+                        <Link 
+                            href="https://www.atomix.com.au/"
+                            target="_blank"
+                            _hover={{textDecoration:"none"}}
+                            _active={{outline:"none", border:"none"}}
+                            _focus={{outline:"none", border:"none"}}
+                            rel="noopener noreferrer"
+                        >
+                            💼 Atomix <ExternalLinkIcon boxSize={3}/>
+                        </Link>
                         <br/>
                         🏠 Adelaide, Australia
                         <br/>
